@@ -5,13 +5,78 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewAsteroides"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Asteroides"
+            android:textColor="#9D9D9D"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="15dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="JUGAR"
+            android:textColor="#000000"
+            app:backgroundTint="#D4D5D5"
+            app:elevation="0dp" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="15dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="Button"
+            android:textColor="#000000"
+            app:backgroundTint="#D4D5D5" />
+
+        <Button
+            android:id="@+id/button03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="15dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="Button"
+            android:textColor="#000000"
+            app:backgroundTint="#D3D4D4" />
+
+        <Button
+            android:id="@+id/button04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="Button"
+            android:textColor="#000000"
+            app:backgroundTint="#D4D5D5" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
