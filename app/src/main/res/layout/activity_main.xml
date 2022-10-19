@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ECECEC"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -13,8 +14,10 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
         <TextView
             android:id="@+id/textViewAsteroides"
@@ -49,7 +52,7 @@
             android:layout_marginBottom="15dp"
             android:insetTop="0dp"
             android:insetBottom="0dp"
-            android:text="Button"
+            android:text="CONFIGURAR"
             android:textColor="#000000"
             app:backgroundTint="#D4D5D5" />
 
@@ -62,7 +65,7 @@
             android:layout_marginBottom="15dp"
             android:insetTop="0dp"
             android:insetBottom="0dp"
-            android:text="Button"
+            android:text="ACERCA DE"
             android:textColor="#000000"
             app:backgroundTint="#D3D4D4" />
 
@@ -74,7 +77,7 @@
             android:layout_marginRight="30dp"
             android:insetTop="0dp"
             android:insetBottom="0dp"
-            android:text="Button"
+            android:text="SALIR"
             android:textColor="#000000"
             app:backgroundTint="#D4D5D5" />
     </LinearLayout>
